@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#4CAF50;
+    height: 60px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+}
+h2,h1,h3{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+    font-size: 50px;
+    color: red;
+}
+
+h2,h3{
+    font-size: 35px;
+}
+
+p{
+    font-size: 25px;
+    padding: 10px 35px;
+    text-justify: auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.header img{
+    width: 100%;
+}
+
+img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.donation{
+text-align: center;
+}
+
+form{
+display: block;
+text-align: center;
+}
+input{
+    background: rgb(197, 179, 179);
+    width: 50%;
+    margin: 5px;
+    border: none;
+    border: 1px soild red;
+    padding: 15px 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: black;
+    
+}
+button{
+    background-color: red;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 8px 40px;
+    border-radius: 20px;
+    outline:none;
+    margin: 10px auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+input:focus{
+    outline: none;
+}
+.video{
+    margin-top: 35px;
+}
+.donation quote{
+    color: forestgreen;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
